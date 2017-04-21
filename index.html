@@ -27,7 +27,7 @@
   
   <!--Demonstration 02 -->
   <p>JavaScript can change HTML attributes.</p>
-  <img id="myBulb" src="../Photo/pic_bulboff.gif" alt="BulbOFF" width="100" height="180">
+  <img id="myBulb" src="images/pic_bulboff.gif" alt="BulbOFF" width="100" height="180">
   <p>
     <button type="button" onclick="light(1)">Light on</button>
     <button type="button" onclick="light(0)">Light off</button>
@@ -47,9 +47,9 @@
   function light(sw) {
     var pic;
     if (sw == 0) {
-        pic = "../Photo/pic_bulboff.gif"
+        pic = "/images/pic_bulboff.gif"
     } else {
-        pic = "../Photo/pic_bulbon.gif"
+        pic = "/images/pic_bulbon.gif"
     }
     document.getElementById('myBulb').src = pic;
   }
@@ -159,7 +159,7 @@ The number of lines in a paragraph depends on the size of the browser window. If
 <hr/>
 
 <p>The image is a link. You can click on it.</p>
-<a href="http://www.w3.org/"><img src="../Photo/Cat.png" alt="Goon.com" width="910" height="696"></a><br>
+<a href="http://www.w3.org/"><img src="/images/Cat.png" alt="Goon.com" width="910" height="696"></a><br>
 
 <p><a href="#H1">Jump to Heading 1</a></p>
 
